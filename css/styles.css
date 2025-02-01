@@ -2,3 +2,46 @@
     background-color: rgb(34, 33, 32);
     color: rgb(233, 240, 236);
 } */
+
+
+
+/* === fonts === */
+
+.font-heading {
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.font-body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: #353330;
+}
+
+
+/* ----> Search Category <----*/
+
+.categorybnt {
+    display: inline;
+    padding: 10px 20px;
+    background-color: #6d6e70;
+}
+
+
+
+.divcolor {
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    /* background-color: #6d6e70; */
+    border: 1px solid #6d6e70;
+    border-radius: 3.32em;
+    margin-bottom: 20px;
+}
