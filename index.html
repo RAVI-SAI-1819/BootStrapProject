@@ -17,13 +17,15 @@
         rel="stylesheet">
     <!-- === style css -->
     <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- === FavIcon === -->
+    <link rel="shortcut icon" href="./assets/img/hero/logo/Logo.ico" type="image/x-icon">
 </head>
 
 <body>
     <header class="headSection d-flex  r align-items-center fixed-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary flex-fill">
-            <img src="./pngtree-view-of-charminar-hyderabad-india-travel-road-charminar-monument-architecture-photo-image_684898.jpg"
-                alt="logo" class="flex-row logo" width="50px">
+            <img src="./assets/img/hero/logo/Logo2.jpg" alt="logo" class="flex-row logo m-2" width="70px">
             <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -159,7 +161,8 @@
                                         <option value="4">Entertainment</option>
                                         <option value="5">Health</option>
                                     </select>
-                                    <button class="btn btn-primary" type="button">Search</button>
+                                    <button class="btn btn-primary rounded-pill bg-danger border-0"
+                                        type="button">Search</button>
                                 </div>
                             </div>
                         </div>
@@ -356,7 +359,9 @@
 
         <!-- === Crousle === -->
         <section class="overflow-hidden pt-2 pt-sm-3 pt-md-4 pt-lg-5 my-xxl-3">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <h2 class="mb-0">Upcoming events</h2>
+            <div id="myCarousel" class="carousel slide mb-6 " data-bs-ride="carousel">
+                <div class="d-flex align-items-center justify-content-between gap-4 pb-3 mb-1 mb-sm-2 mb-md-3"></div>
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -372,41 +377,30 @@
                             <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
                         </svg> -->
 
-
-                        <!-- Edit FRom these Part -->
-                        <img src="./assets/img/listings/city-guide/v1/01.jpg" alt="">
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of
-                                    the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </svg>
+                        <img src="./assets/img/listings/Events/SunithaValentineDays.avif" alt="" width="100%"
+                            height="100%">
                         <div class="container">
                             <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                                <h3>Sunitha's Biggest Live Concert on Valentines Day</h3>
+                                <a class="btn btn-lg btn-danger" href="#">Book Ticket</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                        </svg>
+                        <img src="./assets/img/listings/Events/Kukdukoo.avif" alt="" width="100%" height="100%">
                         <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                            <div class="carousel-caption">
+                                <h3>Kukdukoo Fest Hyderabad</h3>
+                                <a class="btn btn-lg btn-danger" href="#">Book Ticket</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/listings/Events/JavedAli.avif" alt="" width="100%" height="100%">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h3>Javed Ali Live In Hyderabad</h3>
+                                <a class="btn btn-lg btn-danger" href="#">Book Ticket</a></p>
                             </div>
                         </div>
                     </div>
@@ -421,6 +415,215 @@
                 </button>
             </div>
         </section>
+
+
+
+
+        <!-- === Where to Eat === -->
+        <!-- <section class="overflow-hidden pt-2 pt-sm-3 pt-md-4 pt-lg-5 my-xxl-3">
+            <div class="container"> -->
+
+        <div class="container mt-5">
+            <div class="row">
+                <h2 class="mb-4">Where to eat</h2>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/Food/KFC.jpg" class="restaurant-image" alt="KFC">
+                            <div>
+                                <h5 class="card-title">KFC</h5>
+                                <p class="card-text">1.5 km from Your Place</p>
+                                <p class="card-text">Rating: <i class="bi bi-star-fill"></i>4.7 (113 reviews)</p>
+                                <p class="card-text">Price: $50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card ">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/Food/MCDonalds.png" class="restaurant-image"
+                                alt="McDonald's">
+                            <div>
+                                <h5 class="card-title">McDonald's</h5>
+                                <p class="card-text">1.4 km from center</p>
+                                <p class="card-text">Rating: <i class="bi bi-star-fill"></i>4.9 (836 reviews)</p>
+                                <p class="card-text">Price: $25</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/Food/Dominos.png" class="restaurant-image"
+                                alt="Jack Restaurant">
+                            <div>
+                                <h5 class="card-title">Domino's Pizza</h5>
+                                <p class="card-text">1.7 km from center</p>
+                                <p class="card-text">Rating: 4.5 (481 reviews)</p>
+                                <p class="card-text">Price: $30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="mb-4">Popular Shopping Malls</h2>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/Shopping/AMB.jpg" class="restaurant-image" alt="AMB">
+                            <div>
+                                <h5 class="card-title">AMB Mall</h5>
+                                <p class="card-text">6.2 km from center</p>
+                                <p class="card-text">Rating: 3.9 (18 reviews)</p>
+                                <p class="card-text">Price: $45</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="assets/img/listings/Shopping/Nexus.jpg" class="restaurant-image" alt="Nexus">
+                            <div>
+                                <h5 class="card-title">Nexus Mall</h5>
+                                <p class="card-text">2.2 km from center</p>
+                                <p class="card-text">Rating: 4.2 (73 reviews)</p>
+                                <p class="card-text">Price: $20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/Shopping/Lulu.jpg" class="restaurant-image" alt="Lulu">
+                            <div>
+                                <h5 class="card-title">Lulu Mall</h5>
+                                <p class="card-text">4.8 km from center</p>
+                                <p class="card-text">Rating: 4.6 (179 reviews)</p>
+                                <p class="card-text">Price: $25</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="mb-4">Places to Visit</h2>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/places/Ass.jpg" class="restaurant-image" alt="Sbarro">
+                            <div>
+                                <h5 class="card-title">Sbarro</h5>
+                                <p class="card-text">5.7 km from center</p>
+                                <p class="card-text">Rating: 4.8 (127 reviews)</p>
+                                <p class="card-text">Price: $60</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/places/Statu.jpg" class="restaurant-image"
+                                alt="El Pollo Loco">
+                            <div>
+                                <h5 class="card-title">El Pollo Loco</h5>
+                                <p class="card-text">2.3 km from center</p>
+                                <p class="card-text">Rating: 4.4 (275 reviews)</p>
+                                <p class="card-text">Price: $35</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 restaurant-card">
+                    <div class="card">
+                        <div class="card-body d-flex">
+                            <img src="./assets/img/listings/places/port.jpg" class="restaurant-image"
+                                alt="Domino's Pizza">
+                            <div>
+                                <h5 class="card-title">Domino's Pizza</h5>
+                                <p class="card-text">1.7 km from center</p>
+                                <p class="card-text">Rating: 4.5 (481 reviews)</p>
+                                <p class="card-text">Price: $30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- === popular activities === -->
+        <section class="overflow-hidden pt-2 pt-sm-3 pt-md-4 pt-lg-5 my-xxl-3">
+            <div class="container position-relative py-5">
+                <div class="d-flex align-items-start justify-content-between gap-4 pb-3 mb-2 mb-sm-3 mb-lg-4">
+                    <h2 class="mb-0">Popular activities </h2>
+                    <div class="nav">
+                        <a class="nav-link position-relative fs-base text-nowrap py-1 px-0"
+                            href="listings-top-filters-city-guide.html">
+                            <span class="hover-effect-underline stretched-link me-1">View all</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="./assets/img/listings/Most/ramojifilmcity.jpg"
+                                alt="Pine Cottage">
+                            <div class="card-body">
+                                <h5 class="card-title">Pine Cottage</h5>
+                                <p class="card-text">Rating: 4.9 (135 reviews)</p>
+                                <p class="card-text">Price range: $$$</p>
+                                <p class="card-text">Distance: 0.8 km from center</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="./assets/img/listings/Most/Charminar.jpg"
+                                alt="Big Tree Cottage">
+                            <div class="card-body">
+                                <h5 class="card-title">Big Tree Cottage</h5>
+                                <p class="card-text">Rating: 4.5 (73 reviews)</p>
+                                <p class="card-text">Price range: $$</p>
+                                <p class="card-text">Distance: 2.4 km from center</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="./assets/img/listings/Most/Zoo.jpg" alt="Zoo">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal Studio Apartment</h5>
+                                <p class="card-text">Rating: 4.7 (26 reviews)</p>
+                                <p class="card-text">Price range: $$</p>
+                                <p class="card-text">Distance: 1.3 km from center</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="./assets/img/listings/Most/Stadum.jpg" alt="Pine Cottage">
+                            <div class="card-body">
+                                <h5 class="card-title">Pine Cottage</h5>
+                                <p class="card-text">Rating: 4.9 (135 reviews)</p>
+                                <p class="card-text">Price range: $$$</p>
+                                <p class="card-text">Distance: 0.8 km from center</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- </div>
+
+        </section> -->
+
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

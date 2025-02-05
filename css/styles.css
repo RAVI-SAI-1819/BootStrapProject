@@ -332,3 +332,98 @@ a:not([href]):not([class]):hover {
     color: gray;
 }
 
+
+.ratio {
+    position: relative;
+    width: 100%;
+}
+
+.ratio::before {
+    display: block;
+    padding-top: var(--fn-aspect-ratio);
+    content: "";
+}
+
+.ratio>* {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ratio-1x1 {
+    --fn-aspect-ratio: 100%;
+}
+
+.ratio-4x3 {
+    --fn-aspect-ratio: 75%;
+}
+
+.ratio-16x9 {
+    --fn-aspect-ratio: 56.25%;
+}
+
+.ratio-21x9 {
+    --fn-aspect-ratio: 42.8571428571%;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+.btn-primary:hover {
+    background-color: #be0c0c !important;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.restaurant-image {
+    border-radius: 10px;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    width: 35%;
+    /* height: ; */
+}
+
+.bi-star-fill {
+    color: gold;
+}
+
+#myCarousel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.carousel-caption {
+    border-radius: 30px;
+    background-color: rgba(62, 58, 58, 0.344);
+    color: #fefefe;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
