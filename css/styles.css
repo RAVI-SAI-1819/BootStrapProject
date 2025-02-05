@@ -55,7 +55,9 @@
 }
 
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -318,4 +320,15 @@ a:not([href]):not([class]):hover {
 }
 
 
+
+.logo {
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.custom-select {
+    background-color: inherit;
+    border: none;
+    color: gray;
+}
 
