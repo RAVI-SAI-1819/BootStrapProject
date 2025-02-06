@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #009688;
+    --secondary-color: #00bcd4;
+    --text-color: #201a1a;
+    --bg-color: #24262b;
+    --fn-text-Heading: "Inter", sans-serif;
+    --fn-text-Body: "Poppins", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -119,14 +130,14 @@ ul {
 
 .font-heading {
     text-transform: capitalize;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fn-text-Heading);
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 
 .font-body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fn-text-Body);
     font-weight: 300;
     font-size: 1.3em;
     line-height: 1.5;
@@ -181,12 +192,14 @@ ul {
 
     h1,
     .h1 {
+        font-family: var(--fn-text-Heading);
         font-size: 2.5rem;
     }
 }
 
 h2,
 .h2 {
+    font-family: var(--fn-text-Heading);
     font-size: calc(1.325rem + 0.9vw);
 }
 
@@ -194,12 +207,14 @@ h2,
 
     h2,
     .h2 {
+        font-family: var(--fn-text-Heading);
         font-size: 2rem;
     }
 }
 
 h3,
 .h3 {
+    font-family: var(--fn-text-Heading);
     font-size: calc(1.3rem + 0.6vw);
 }
 
@@ -207,12 +222,14 @@ h3,
 
     h3,
     .h3 {
+        font-family: var(--fn-text-Heading);
         font-size: 1.75rem;
     }
 }
 
 h4,
 .h4 {
+    font-family: var(--fn-text-Heading);
     font-size: calc(1.275rem + 0.3vw);
 }
 
@@ -220,21 +237,25 @@ h4,
 
     h4,
     .h4 {
+        font-family: var(--fn-text-Heading);
         font-size: 1.5rem;
     }
 }
 
 h5,
 .h5 {
+    font-family: var(--fn-text-Heading);
     font-size: 1.25rem;
 }
 
 h6,
 .h6 {
+    font-family: --fn-text-Heading;
     font-size: 1rem;
 }
 
 p {
+    font-family: var(--fn-text-Body);
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -318,12 +339,12 @@ sup {
 }
 
 a {
-    color: black;
+    color: rgb(45, 42, 42);
     text-decoration: underline;
 }
 
 a:hover {
-    color: black;
+    color: rgb(35, 32, 32);
     text-decoration: none;
 }
 
@@ -513,7 +534,7 @@ a:not([href]):not([class]):hover {
 }
 
 #myCarousel {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -532,4 +553,40 @@ a:not([href]):not([class]):hover {
 img:hover {
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+p sm {
+    font-size: 0.9em;
+    color: rgb(103, 63, 63);
+}
+
+.social-links a {
+    color: #bbbbbb;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.social-links a:hover {
+    color: #c2aeae;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+
+.rightsandcopy {
+    font-size: .6em;
+    color: rgb(203, 211, 196);
+}
+
+
+.footer-col ul li a {
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
 }
